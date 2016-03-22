@@ -23,7 +23,7 @@ func main() {
 	v := 1
 	incr(&v)       // v now = 2
 	fmt.Println(v) // 2
-	// fmt.Println(*v) // invalid indirect of v (type int)
+	// fmt.Println(*v)    // invalid indirect of v (type int)
 	fmt.Println(&v)       // address
 	fmt.Println(incr(&v)) // 3
 
